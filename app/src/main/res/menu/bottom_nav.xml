@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/tiempoActualFragment"
+            android:icon="@drawable/ic_today"
+            android:title="@string/hoy"/>
+    <item
+            android:id="@+id/listaTiempoFuturoFragment"
+            android:icon="@drawable/ic_calendar_week"
+            android:title="@string/sieteDias"/>
+    <item
+            android:id="@+id/opcionesFragment"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/opciones"/>
+</menu>

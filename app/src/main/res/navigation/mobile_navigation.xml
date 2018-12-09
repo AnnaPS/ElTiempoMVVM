@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/mobile_navigation"
+            app:startDestination="@id/tiempoActualFragment">
+
+    <fragment android:id="@+id/tiempoActualFragment"
+              android:name="com.novadev.eltiempomvvm.ui.tiempo.actual.TiempoActualFragment"
+              android:label="TiempoActual" tools:layout="@layout/tiempo_actual_fragment"/>
+    <fragment android:id="@+id/listaTiempoFuturoFragment"
+              android:name="com.novadev.eltiempomvvm.ui.tiempo.futuro.lista.ListaTiempoFuturoFragment"
+              android:label="ListaTiempoSieteDias" tools:layout="@layout/lista_tiempo_futuro_fragment"/>
+    <fragment android:id="@+id/tiempoFuturoDetalleFragment"
+              android:name="com.novadev.eltiempomvvm.ui.tiempo.futuro.detalle.TiempoFuturoDetalleFragment"
+              android:label="TiempoFuturoDetalle" tools:layout="@layout/tiempo_futuro_detalle_fragment"/>
+    <fragment android:id="@+id/opcionesFragment" android:name="com.novadev.eltiempomvvm.ui.opciones.OpcionesFragment"
+              android:label="OpcionesFragment"/>
+</navigation>
